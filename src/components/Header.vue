@@ -1,12 +1,11 @@
 <template>
   <div>
     <h2>Header component</h2>
-    <div id="nav">
+    <nav id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/contactus">Contact Us</router-link>
-    </div>
-    <router-view />
+    </nav>
   </div>
 </template>
 

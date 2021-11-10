@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header id="header"></Header>
+    <router-view />
     <Footer id="footer"></Footer>
   </div>
 </template>
@@ -12,11 +13,20 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  display: flex;
+  flex-direction: column;
 }
-//TODO: CHARL
 #header {
+  min-height: 50px;
+  background: lightcyan;
 }
 #footer {
+  background: PapayaWhip;
+
+  bottom: 0;
+  width: 100%;
+  height: 120px; /* Height of the footer */
+  position: fixed;
 }
 </style>
 <script>
