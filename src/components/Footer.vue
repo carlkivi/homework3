@@ -1,7 +1,6 @@
 <template>
-  <div>
-    <h2>Footer component</h2>
-    <router-link to="/contactus">Contact Us</router-link>
+  <div id="footer">
+    <router-link id="link" to="/contactus">Contact Us</router-link>
   </div>
 </template>
 
@@ -14,5 +13,11 @@ export default {
 <style scoped>
 h2 {
   color: darkgreen;
+}
+#link {
+  padding: 15px;
+}
+#footer {
+  padding: 15px;
 }
 </style>
