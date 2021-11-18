@@ -5,7 +5,7 @@
     <div class="content-box" v-for = "post in postsList" :key="post.id" >
       <nav><div>Sep 18, 2020 15:16</div></nav>
       <div><h1>{{post.title}}</h1></div>
-      <div><img class="image" src={{post.url}} alt="image"></div>
+      <div><img class="image" v-bind:src="post.url" alt="image"></div>
       <div class="text"><p>{{post.body}}</p></div>
     </div>
     <aside class="left-sidebar"></aside>
@@ -73,3 +73,7 @@ main {
   margin-bottom: 150px;
 }
 </style>
+
+<!-- Problem with the pictures -->
+<!--src={{post.url}} -->
+<!-- v-bind:src="post.url" -->
