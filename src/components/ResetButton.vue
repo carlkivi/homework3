@@ -1,12 +1,13 @@
 <template>
   <div>
-    <button></button>
+    <button>Reset likes</button>
   </div>
 </template>
 
 <script>
 export default {
   name: "ResetButton",
+  components: {},
 };
 </script>
 

@@ -7,6 +7,8 @@
       <div><h1>{{post.title}}</h1></div>
       <div><img class="image" v-bind:src="post.url" alt="image"></div>
       <div class="text"><p>{{post.body}}</p></div>
+      <like-button @click="post.count++"></like-button>
+      <div class="text"><p>Total likes: {{post.count}}</p></div>
     </div>
     <aside class="left-sidebar"></aside>
     <aside class="right-sidebar"></aside>
@@ -16,8 +18,10 @@
 </template>
 
 <script>
+import LikeButton from "@/components/LikeButton";
 export default {
   name: "Posts",
+  components: { LikeButton},
   data: function() {
     return {
     }},
