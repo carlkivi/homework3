@@ -8,28 +8,10 @@
 
 export default {
   name: "LikeButton",
-  data: function() {
-    //let count = 0;
-    return {
-      //count: 0
-    };
-  },
-  /*
-  computed: {
-    postsList(){
-      return this.$store.state.postsList
-    }},
-  methods: {
-    incrementCounter: function(value) {
-      return value++;
-    }
-  }
-
-   */
+  components: {},
 };
 </script>
 
 <style scoped>
-
 </style>
 

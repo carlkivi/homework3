@@ -8,16 +8,10 @@
 
 <script>
 // @ is an alias to /src
-import Post from "@/components/Post";
+import Post from "@/components/Post"
 import ResetButton from "@/components/ResetButton";
 export default {
   name: "Home",
-  components: { ResetButton, Post },
-  /*
-  computed: {
-    postsList(){
-      return this.$store.state.postsList
-    }},
-   */
+  components: {ResetButton, Post},
 };
 </script>
