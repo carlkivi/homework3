@@ -36,7 +36,7 @@ h1 {
   margin: 40px 0 0;
 }
 main {
-  background: white;
+  background: antiquewhite;
   flex: 3;
   order: 2;
   min-height: 100vh;
@@ -63,6 +63,7 @@ main {
   margin-top: 10px;
   box-shadow: 0 0 5px 5px gainsboro;
   border-radius: 5px;
+  background-color: white;
 }
 .image {
   width: 600px;
@@ -75,6 +76,7 @@ main {
 }
 .posts {
   margin-bottom: 150px;
+  background-color: antiquewhite;
 }
 </style>
 

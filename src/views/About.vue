@@ -25,10 +25,10 @@ p {
   text-align: center;
 }
 .scrollable {
-  margin:4px;
   padding:4px;
   overflow: scroll;
   text-align: center;
+  margin: auto auto 100px 4px;
 }
 
 </style>

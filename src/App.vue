@@ -13,19 +13,20 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: antiquewhite;
   display: flex;
   flex-direction: column;
 }
 #header {
   min-height: 50px;
-  background: lightcyan;
+  background: rosybrown;
 }
 #footer {
-  background: PapayaWhip;
+  background: rosybrown;
 
   bottom: 0;
   width: 100%;
-  height: 120px; /* Height of the footer */
+  height: 60px; /* Height of the footer */
   position: fixed;
 }
 </style>
